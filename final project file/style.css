@@ -1,0 +1,36 @@
+.package { background-color: blue;
+    height: 93vh;
+     
+}
+.description {
+    background-color: aquamarine;
+    height: 93vh;
+}
+.country {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* Align items vertically */
+}
+
+.info {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* Align items horizontally */
+    align-items: center;
+    /* Align items vertically */
+}
+
+/* Added style for links */
+.country-link {
+    text-decoration: none;
+    color: blue;
+    margin-right: 10px;
+}
