@@ -41,7 +41,7 @@ fetch('https://restcountries.com/v3.1/all')
 
             // Create a link for the country
             const countryLink = document.createElement('a');
-            countryLink.href = `country-info.html?country=${country.name.common}`;
+            countryLink.href = `${country.name.common}.html`;
             countryLink.textContent = country.name.common;
             countryLink.classList.add('country-link');
             leftDiv.appendChild(countryLink);
