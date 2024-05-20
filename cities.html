@@ -3,12 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cities</title>
+    <title>Tour Packages - Explore the World Tours</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495e;
+            padding: 1em 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 1em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1em;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .highlight {
+            color: #e74c3c;
+        }
+        .tour-packages {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        .package {
+            flex: 1 1 calc(33% - 1em);
+            background: #fff;
+            padding: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .package img {
+            width: 100%;
+            height: auto;
+        }
+        .package h3 {
+            margin-top: 0.5em;
+        }
+    </style>
 </head>
 <body>
-    <h1>MADRID</h1>
-    <h1>PARIS</h1>
-    <h1>AMSTERDAM</h1>
-    <h1>TALLINN</h1>
+    <header>
+        <h1>CRUCIAL VOYAGE LTD</h1>
+        <p>Discover our top tour packages to the most visited countries in Europe</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="tours.html">Tours</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="tour-packages">
+            <h2>Our Top European Tour Packages</h2>
+            <div class="tour-packages">
+                <div class="package">
+                    <img src="https://example.com/france.jpg" alt="Eiffel Tower, France">
+                    <h3>France</h3>
+                    <p>Experience the romance and elegance of France with our comprehensive tour package. Visit iconic landmarks such as the Eiffel Tower, Louvre Museum, and enjoy the exquisite French cuisine.</p>
+                    <p><strong>Duration:</strong> 7 Days</p>
+                    <p><strong>Price:</strong> $1,500</p>
+                </div>
+                <div class="package">
+                    <img src="https://example.com/italy.jpg" alt="Colosseum, Italy">
+                    <h3>Italy</h3>
+                    <p>Discover the rich history and stunning architecture of Italy. Our package includes visits to Rome, Venice, and Florence, along with guided tours of the Colosseum and the Vatican.</p>
+                    <p><strong>Duration:</strong> 10 Days</p>
+                    <p><strong>Price:</strong> $2,000</p>
+                </div>
+                <div class="package">
+                    <img src="https://example.com/spain.jpg" alt="Sagrada Familia, Spain">
+                    <h3>Spain</h3>
+                    <p>Explore the vibrant culture and beautiful landscapes of Spain. Our tour package features stops in Barcelona, Madrid, and Seville, with flamenco shows and delicious tapas experiences.</p>
+                    <p><strong>Duration:</strong> 8 Days</p>
+                    <p><strong>Price:</strong> $1,800</p>
+                </div>
+                <div class="package">
+                    <img src="https://example.com/united-kingdom.jpg" alt="Big Ben, United Kingdom">
+                    <h3>United Kingdom</h3>
+                    <p>Uncover the history and modern attractions of the United Kingdom. This package includes visits to London, Edinburgh, and Cardiff, with tours of castles, museums, and historic sites.</p>
+                    <p><strong>Duration:</strong> 9 Days</p>
+                    <p><strong>Price:</strong> $1,700</p>
+                </div>
+                <div class="package">
+                    <img src="https://example.com/germany.jpg" alt="Neuschwanstein Castle, Germany">
+                    <h3>Germany</h3>
+                    <p>Immerse yourself in the cultural heritage and scenic beauty of Germany. Our tour includes Berlin, Munich, and the Black Forest, with visits to historic landmarks and fairy-tale castles.</p>
+                    <p><strong>Duration:</strong> 10 Days</p>
+                    <p><strong>Price:</strong> $1,900</p>
+                </div>
+                <div class="package">
+                    <img src="https://example.com/greece.jpg" alt="Santorini, Greece">
+                    <h3>Greece</h3>
+                    <p>Enjoy the stunning beaches and ancient ruins of Greece. This package covers Athens, Santorini, and Mykonos, offering guided tours of the Acropolis and relaxing seaside experiences.</p>
+                    <p><strong>Duration:</strong> 7 Days</p>
+                    <p><strong>Price:</strong> $1,600</p>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
