@@ -3,14 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACT</title>
+    <title>Contact Us - CRUCIAL VOYAGE LTD </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495e;
+            padding: 1em 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 1em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1em;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 2em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 1em;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 0.5em;
+            color: #333;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background: #e74c3c;
+            color: #fff;
+            border: none;
+            padding: 0.75em 1.5em;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #c0392b;
+        }
+        .contact-info {
+            margin-top: 2em;
+        }
+        .contact-info p {
+            margin: 0.5em 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Find below our contact details:</h1>
-    <P>PHONE: 6574838383</P>
-    <P>Email: crucial@gmail.com</P>
-    <p>ADRESS: Calle santa 36   Madrid</p>
+    <header>
+        <h1>CRUCIAL VOYAGE LTD</h1>
+        <p>Contact Us</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="tours.html">Tours</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
 
-    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong>Calle de Santo Beatriz 20,Madrid</p>
+            <p><strong>Phone:</strong> +34566677777</p>
+            <p><strong>Email:</strong> info@voyage.com</p>
+            <p><strong>Office Hours:</strong> Monday - Friday, 9:00 AM - 5:00 PM</p>
+        </section>
+    </div>
 </body>
 </html>
