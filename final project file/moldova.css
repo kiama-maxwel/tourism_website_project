@@ -33,10 +33,7 @@ h1, h2, h3 {
 .highlight {
     color: #e8491d;
 }
-.places img {
-    width: 100%;
-    height: auto;
-}
+
 .places {
     display: flex;
     flex-wrap: wrap;
@@ -47,4 +44,9 @@ h1, h2, h3 {
     background: #fff;
     padding: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.moldova-images{
+    height: 250px;
+    width: 300px;
 }
