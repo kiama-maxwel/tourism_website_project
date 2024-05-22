@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: #e74c3c;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #c0392b;
+    padding: 1em 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1em;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+}
+h1, h2, h3 {
+    color: #333;
+}
+.highlight {
+    color: #e74c3c;
+}
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.place {
+    flex: 1 1 calc(33% - 1em);
+    background: #fff;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+
+}
+
+.spain-images{
+        height: 250px;
+        width: 300px;
+    }
